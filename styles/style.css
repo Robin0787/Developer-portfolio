@@ -214,6 +214,7 @@ main {
   font-size: 16px;
   color: #757575;
   margin-bottom: 30px;
+  width: 511px;
 }
 
 hr {
@@ -226,4 +227,43 @@ hr {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+
+/* Contact styles */
+.contact {
+  display: flex;
+  gap: 117px;
+  background: #fff8f3;
+  padding: 130px 100px;
+  margin-top: 113px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.name-input-parent {
+  margin-bottom: 24px;
+}
+
+.email-input-parent {
+  margin-bottom: 24px;
+}
+
+#name,
+#email,
+textarea {
+  border: none;
+  padding: 18px 30px;
+  width: 461px;
+  border-radius: 5px;
+}
+
+.contact .primary-btn {
+  margin-top: 24px;
+}
+
+.contact .section-desc {
+  text-align: left;
+  width: 562px;
 }
