@@ -5,6 +5,22 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.fa-download,
+.fa-phone {
+  position: relative;
+  left: -10px;
+}
+.contact-btn {
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  border-radius: 5px;
+  height: 64px;
+  font-size: 20px;
+  padding: 18px 35px;
+  border: 1px solid #fd6e0a;
+  margin-left: 20px;
+}
+
 /* Header & Navbar */
 .header {
   background-color: #fff8f3;
